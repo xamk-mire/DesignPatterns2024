@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VehicleFactoryExample
+﻿namespace FactoryPatterns
 {
     // Vehicle base class
     public abstract class Vehicle
