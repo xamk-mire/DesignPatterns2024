@@ -22,3 +22,6 @@ obj/
 # Windows system files
 Thumbs.db
 ehthumbs.db
+
+# VSCode specific files
+.vs
