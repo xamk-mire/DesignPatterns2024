@@ -41,6 +41,12 @@ Your task is to refactor the code using the **Observer** pattern for automatic u
 
 ---
 
+### 4. Combine the Patterns:
+- Ensure that `WeatherDisplay` instances automatically receive updates from `WeatherStation` (using the **Observer** pattern).
+- Use the **Decorator** pattern to allow each `WeatherDisplay` to extend the weather readings with additional information dynamically.
+
+---
+
 #### Instructions:
 - **Step 1**: Create an abstract `WeatherReading` class with a method `Display()`.
 - **Step 2**: Implement a concrete `BasicReading` class that extends `WeatherReading` and provides basic weather data.
@@ -52,7 +58,9 @@ Your task is to refactor the code using the **Observer** pattern for automatic u
 ## Expected Refactored Code
 - **Task 2**: Implement the `IWeatherObserver` interface and update the `WeatherStation` to notify observers automatically.
 - **Task 3**: Implement the `WeatherReading` abstract class and decorators to add features dynamically to weather readings.
+- **Task 4**: Combine both patterns so that `WeatherDisplay` uses decorators to enhance readings when notified by `WeatherStation`.
 
 ## Hints
 - **Observer Pattern (Task 2)**: Use this pattern to ensure that `WeatherDisplay` instances are automatically updated whenever the `WeatherStation` changes its state.
 - **Decorator Pattern (Task 3)**: Use this pattern to add responsibilities to weather readings without modifying the base class.
+- **Combining the Patterns (Task 4)**: Use the **Observer** pattern for automatic updates and Decorator pattern to enhance weather data before displaying it.
