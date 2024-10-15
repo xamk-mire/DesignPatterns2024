@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyStatePattern", "Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyStatePatternSolution", "StrategyStatePatternSolution\StrategyStatePatternSolution.csproj", "{D50B471B-3A68-46B2-8C62-32CDBEA0A0EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDecoratorPattern", "ObserverDecoratorPattern\ObserverDecoratorPattern.csproj", "{01C46E1B-1857-4949-9CD0-11F4B3D61388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDecoratorPattern", "ObserverDecoratorPattern\ObserverDecoratorPattern.csproj", "{01C46E1B-1857-4949-9CD0-11F4B3D61388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDecoratorPatternSolution", "ObserverDecoratorPatternSolution\ObserverDecoratorPatternSolution.csproj", "{A7D9DC17-2E43-4A89-AD9A-0CC678C9F8C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{01C46E1B-1857-4949-9CD0-11F4B3D61388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C46E1B-1857-4949-9CD0-11F4B3D61388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C46E1B-1857-4949-9CD0-11F4B3D61388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D9DC17-2E43-4A89-AD9A-0CC678C9F8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D9DC17-2E43-4A89-AD9A-0CC678C9F8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D9DC17-2E43-4A89-AD9A-0CC678C9F8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D9DC17-2E43-4A89-AD9A-0CC678C9F8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
